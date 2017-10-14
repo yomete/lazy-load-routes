@@ -1,0 +1,24 @@
+{
+  "name": "lazy-loading-routes",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "google-map-react": "^0.24.0",
+    "marked": "^0.3.6",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-markdown": "^2.5.0",
+    "react-remarkable": "^1.1.2",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.0.14",
+    "source-map-explorer": "^1.5.0"
+  },
+  "scripts": {
+    "analyze": "source-map-explorer build/static/js/main.*",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
